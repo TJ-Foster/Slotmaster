@@ -14,7 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func playButtonTapped(_ sender: UIButton) {
+        
+    }
+    @IBOutlet weak var slotLeft: UIImageView!
+    @IBOutlet weak var slotMiddle: UIImageView!
+    @IBOutlet weak var slotRight: UIImageView!
+    
+    
 
 }
 
